@@ -29,7 +29,8 @@ Also lets display the hsv_image
 
 This is the picture of converted hsv_image.
 
-![Alt Text](https://github.com/Funghang/OpenCV-Image-color-detection/blob/main/has image.png)
+![Alt Text](https://github.com/Funghang/OpenCV-Image-color-detection/blob/main/hsv%20image.png)
+
 
 
 
