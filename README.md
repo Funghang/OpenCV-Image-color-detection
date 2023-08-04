@@ -81,7 +81,7 @@ With the changes in upper and lower bound for green color, the above code detect
 
 This is the final result after detecting the green region of the image.
 
-![Alt Text](https://github.com/Funghang/OpenCV-Image-color-detection/blob/main/Green%20color%20detection.png)
+![Alt Text](https://github.com/Funghang/OpenCV-Image-color-detection/blob/main/green%20image.png)
 
 
 
