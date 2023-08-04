@@ -13,7 +13,8 @@ Importing Libraries: The code starts by importing the required libraries, includ
 ```import numpy as np```
 
 
-Reading the Image: The image is read from the file path specified in the cv2.imread() function. The 1 argument specifies that the image should be read in color mode (BGR).
+#Reading the Image:
+The image is read from the file path specified in the cv2.imread() function. The 1 argument specifies that the image should be read in color mode (BGR).
 
 ```image = cv2.imread("full_image_path\\image_name.jpg",1) ```
 
