@@ -66,6 +66,7 @@ The code uses cv2.imshow() to display the final result with only the blue region
 ```cv2.imshow('Blue Color Detection', result)```
 
 This is the final result which shows the blue region of the image.
+
 ![Alt Text](https://github.com/Funghang/OpenCV-Image-color-detection/blob/main/blue%20color%20detection.png)
 
 
