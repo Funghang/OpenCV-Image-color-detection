@@ -50,12 +50,22 @@ cv2.inRange() function creates a binary mask that identifies pixels within the s
 ```mask = cv2.inRange(hsv_image, lower_blue, upper_blue)```
 Also lets display the mask
 
-```cv2.imshow('mask image', mask  )```
+```cv2.imshow('mask image', mask)```
 
 This is the picture of mask.
 
 ![Alt Text](https://github.com/Funghang/OpenCV-Image-color-detection/blob/main/mask%20image.png)
 fig2
+
+# 6. Extracting Blue Regions:
+The original image is combined with the mask using cv2.bitwise_and() function. This operation extracts the blue regions from the original image by setting all non-blue pixels to black (0,0,0).
+```result = cv2.bitwise_and(image, image, mask=mask)```
+
+# 7. Displaying The Blue Region Of Images:
+The code uses cv2.imshow() to display the final result with only the blue regions visible.
+```cv2.imshow('Blue Color Detection', result)```
+![Alt Text]()
+
 
 
 
