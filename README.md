@@ -36,8 +36,8 @@ fig2
 
 Defining Blue Color Range: The lower and upper bounds of the blue color are defined in HSV color space. The lower_blue and upper_blue arrays represent the minimum and maximum values of Hue, Saturation, and Value for detecting the blue color.
 
-```lower_blue = np.array([100, 50, 50])
-upper_blue = np.array([130, 255, 255])```
+```lower_blue = np.array([100, 50, 50])```
+```upper_blue = np.array([130, 255, 255])```
 
 
 
