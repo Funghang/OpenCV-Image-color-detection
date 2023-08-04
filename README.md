@@ -19,7 +19,6 @@ Reading the Image: The image is read from the file path specified in the cv2.imr
 
 In our code we have read the image of Rubicks cube, which is shown in fig below:
 
-
-                 ![Alt Text](https://github.com/Funghang/OpenCV-Image-color-detection/blob/main/rubick'scube.jpg)
+![Alt Text](https://github.com/Funghang/OpenCV-Image-color-detection/blob/main/rubick'scube.jpg)
 
 
