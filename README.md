@@ -6,7 +6,8 @@ The purpose of the above code is to perform color detection using OpenCV, a popu
 
 # Here's a brief description of the code and its use:
 
-Importing Libraries: The code starts by importing the required libraries, including cv2 (OpenCV) for image processing and numpy for numerical operations.
+# 1. Importing Libraries:
+The code starts by importing the required libraries, including cv2 (OpenCV) for image processing and numpy for numerical operations.
 
 ```import cv2```
 
