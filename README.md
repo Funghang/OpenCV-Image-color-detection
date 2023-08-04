@@ -64,7 +64,9 @@ The original image is combined with the mask using cv2.bitwise_and() function. T
 # 7. Displaying The Blue Region Of Images:
 The code uses cv2.imshow() to display the final result with only the blue regions visible.
 ```cv2.imshow('Blue Color Detection', result)```
-![Alt Text]()
+
+This is the final result which shows the blue region of the image.
+![Alt Text](https://github.com/Funghang/OpenCV-Image-color-detection/blob/main/blue%20color%20detection.png)
 
 
 
