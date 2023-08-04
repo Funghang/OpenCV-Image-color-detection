@@ -52,7 +52,7 @@ Also lets display the mask
 ```cv2.imshow('mask image', mask  )```
 This is the picture of mask.
 
-![Alt Text]()
+![Alt Text](https://github.com/Funghang/OpenCV-Image-color-detection/blob/main/mask%20image.png)
 fig2
 
 
