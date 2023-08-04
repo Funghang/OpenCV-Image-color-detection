@@ -22,7 +22,7 @@ The image is read from the file path specified in the cv2.imread() function. The
 
 In our code we have read the image of Rubicks cube, which is shown in fig below:
 
-![Alt Text](https://github.com/Funghang/OpenCV-Image-color-detection/blob/main/rubickscube.png) fig1
+![Alt Text](https://github.com/Funghang/OpenCV-Image-color-detection/blob/main/rubickscube.png) 
 
 # 3. Converting BGR to HSV
 The image is then converted from the default BGR color space to the HSV color space using cv2.cvtColor() function. HSV is often used in color detection tasks because it separates the color information into three components - Hue, Saturation, and Value.
@@ -36,7 +36,7 @@ Also lets display the hsv_image
 This is the picture of converted hsv_image.
 
 ![Alt Text](https://github.com/Funghang/OpenCV-Image-color-detection/blob/main/hsv%20image.png)
-fig2
+                                            fig2
 
 # 4. Defining Blue Color Range
 The lower and upper bounds of the blue color are defined in HSV color space. The lower_blue and upper_blue arrays represent the minimum and maximum values of Hue, Saturation, and Value for detecting the blue color.
