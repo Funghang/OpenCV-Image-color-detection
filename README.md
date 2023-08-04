@@ -19,7 +19,7 @@ Reading the Image: The image is read from the file path specified in the cv2.imr
 
 In our code we have read the image of Rubicks cube, which is shown in fig below:
 
-![Alt Text](https://github.com/Funghang/OpenCV-Image-color-detection/blob/main/rubick'scube.jpg)
+![Alt Text](https://github.com/Funghang/OpenCV-Image-color-detection/blob/main/rubickscube.jpg)
 
 Converting to HSV: The image is then converted from the default BGR color space to the HSV color space using cv2.cvtColor() function. HSV is often used in color detection tasks because it separates the color information into three components - Hue, Saturation, and Value.
 ```hsv_image = cv2.cvtColor(image, cv2.COLOR_BGR2HSV) ```
@@ -29,7 +29,7 @@ Also lets display the hsv_image
 
 This is the picture of converted hsv_image.
 
-![Alt Text](https://github.com/Funghang/OpenCV-Image-color-detection/blob/main/rubick'scube.jpg)
+![Alt Text](https://github.com/Funghang/OpenCV-Image-color-detection/blob/main/has image.png)
 
 
 
