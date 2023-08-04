@@ -36,8 +36,7 @@ Also lets display the hsv_image
 This is the picture of converted hsv_image.
 
 ![Alt Text](https://github.com/Funghang/OpenCV-Image-color-detection/blob/main/hsv%20image.png)
-             fig2
-
+            
 # 4. Defining Blue Color Range
 The lower and upper bounds of the blue color are defined in HSV color space. The lower_blue and upper_blue arrays represent the minimum and maximum values of Hue, Saturation, and Value for detecting the blue color.
 
@@ -56,7 +55,6 @@ Also lets display the mask
 This is the picture of mask.
 
 ![Alt Text](https://github.com/Funghang/OpenCV-Image-color-detection/blob/main/mask%20image.png)
-fig2
 
 # 6. Extracting Blue Regions
 The original image is combined with the mask using cv2.bitwise_and() function. This operation extracts the blue regions from the original image by setting all non-blue pixels to black (0,0,0).
