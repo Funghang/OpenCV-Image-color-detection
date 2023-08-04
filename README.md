@@ -21,6 +21,7 @@ The image is read from the file path specified in the cv2.imread() function. The
 ```image = cv2.imread("full_image_path\\image_name.jpg",1) ```
 
 In our code we have read the image of Rubicks cube, which is shown in fig below:
+```image = cv2.imread("D:\\picfolder\\citizenship_data\\New_Data\\rubickscube.jpg",1)```
 
 ![Alt Text](https://github.com/Funghang/OpenCV-Image-color-detection/blob/main/rubickscube.png) 
 
