@@ -14,7 +14,7 @@ The code starts by importing the required libraries, including cv2 (OpenCV) for 
 ```import numpy as np```
 
 
-# Reading the Image:
+# 2.Reading the Image:
 
 The image is read from the file path specified in the cv2.imread() function. The 1 argument specifies that the image should be read in color mode (BGR).
 
@@ -24,7 +24,8 @@ In our code we have read the image of Rubicks cube, which is shown in fig below:
 
 ![Alt Text](https://github.com/Funghang/OpenCV-Image-color-detection/blob/main/rubickscube.png) fig1
 
-Converting to HSV: The image is then converted from the default BGR color space to the HSV color space using cv2.cvtColor() function. HSV is often used in color detection tasks because it separates the color information into three components - Hue, Saturation, and Value.
+# 3. Converting to HSV:
+The image is then converted from the default BGR color space to the HSV color space using cv2.cvtColor() function. HSV is often used in color detection tasks because it separates the color information into three components - Hue, Saturation, and Value.
 
 ```hsv_image = cv2.cvtColor(image, cv2.COLOR_BGR2HSV) ```
 
@@ -37,7 +38,8 @@ This is the picture of converted hsv_image.
 ![Alt Text](https://github.com/Funghang/OpenCV-Image-color-detection/blob/main/hsv%20image.png)
 fig2
 
-Defining Blue Color Range: The lower and upper bounds of the blue color are defined in HSV color space. The lower_blue and upper_blue arrays represent the minimum and maximum values of Hue, Saturation, and Value for detecting the blue color.
+# 4. Defining Blue Color Range:
+The lower and upper bounds of the blue color are defined in HSV color space. The lower_blue and upper_blue arrays represent the minimum and maximum values of Hue, Saturation, and Value for detecting the blue color.
 
 ```lower_blue = np.array([100, 50, 50])```
 ```upper_blue = np.array([130, 255, 255])```
