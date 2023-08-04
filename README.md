@@ -49,7 +49,9 @@ cv2.inRange() function creates a binary mask that identifies pixels within the s
 
 ```mask = cv2.inRange(hsv_image, lower_blue, upper_blue)```
 Also lets display the mask
+
 ```cv2.imshow('mask image', mask  )```
+
 This is the picture of mask.
 
 ![Alt Text](https://github.com/Funghang/OpenCV-Image-color-detection/blob/main/mask%20image.png)
