@@ -69,7 +69,7 @@ This is the final result which shows the blue region of the image.
 
 ![Alt Text](https://github.com/Funghang/OpenCV-Image-color-detection/blob/main/blue%20color%20detection.png)
 
- In this way we can detect the blue color region from the image. Similarly, we can perform the same operation for detecting green region in the image. But in case of green region the upper and lower bound of the green needs to be modified as:
+ In this way we can detect the blue color region from the image. Similarly, we can perform the same operation for detecting green region in the image. But in case of green region the upper and lower bound of the green color needs to be modified as:
 
 ```lower_green = np.array([40, 50, 50])```
 
