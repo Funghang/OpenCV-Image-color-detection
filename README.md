@@ -24,7 +24,7 @@ In our code we have read the image of Rubicks cube, which is shown in fig below:
 
 ![Alt Text](https://github.com/Funghang/OpenCV-Image-color-detection/blob/main/rubickscube.png) fig1
 
-# 3. Converting to HSV:
+# 3. Converting BGR to HSV:
 The image is then converted from the default BGR color space to the HSV color space using cv2.cvtColor() function. HSV is often used in color detection tasks because it separates the color information into three components - Hue, Saturation, and Value.
 
 ```hsv_image = cv2.cvtColor(image, cv2.COLOR_BGR2HSV) ```
@@ -43,6 +43,19 @@ The lower and upper bounds of the blue color are defined in HSV color space. The
 
 ```lower_blue = np.array([100, 50, 50])```
 ```upper_blue = np.array([130, 255, 255])```
+
+# 5. Creating the Mask:
+cv2.inRange() function creates a binary mask that identifies pixels within the specified HSV range. The mask will have a value of 1 (white) for the pixels that fall within the blue color range, and 0 (black) for the pixels outside the range.
+
+```mask = cv2.inRange(hsv_image, lower_blue, upper_blue)```
+Also lets display the mask
+```cv2.imshow('mask image', mask  )```
+This is the picture of mask.
+
+![Alt Text]()
+fig2
+
+
 
 
 
