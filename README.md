@@ -67,7 +67,7 @@ The code uses cv2.imshow() to display the final result with only the blue region
 
 This is the final result which shows the blue region of the image.
 
-![Alt Text](https://github.com/Funghang/OpenCV-Image-color-detection/blob/main/blue%20color%20detection.png)
+![Alt Text](https://github.com/Funghang/OpenCV-Image-color-detection/blob/main/blue%20image.png)
 
  In this way we can detect the blue color region from the image. Similarly, we can perform the same operation for detecting green region in the image. But in case of green region the upper and lower bound of the green color needs to be modified as:
 
